@@ -117,7 +117,7 @@ async def useradd(_, message: Message):
 ┣★ **HW OP** : [OWNER](https://t.me/iamhackerworld)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 Type /help for Others Commands ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [**HW MUSIC BOT OWNER**](https://t.me/iamhackerworld) ...
+ᴅᴍ ᴛᴏ ᴍʏ [HW MUSIC BOT OWNER](https://t.me/iamhackerworld) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
