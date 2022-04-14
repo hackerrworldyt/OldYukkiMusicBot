@@ -109,7 +109,7 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"{START_IMG_URL}",
+        photo=f"{https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg}",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ『【**HW MUSIC BOT**】』mᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
@@ -133,7 +133,7 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command(["help", "help"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"{START_IMG_URL}",
+        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
         caption=f"""Contact me in PM to get the list of possible commands.""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -148,7 +148,7 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command(["alive", "alive"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"{START_IMG_URL}",
+        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
