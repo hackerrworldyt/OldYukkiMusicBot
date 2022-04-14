@@ -106,18 +106,18 @@ async def useradd(_, message: Message):
     )
 
 
-@app.on_message(filters.command("sts") & filters.private & ~filters.edited)
+@app.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/960444f086cd118ef72f7.jpg",
+        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ『【𝐈𝐑𝐔𝐘𝐀𝐌】』mᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ『【**HW MUSIC BOT**】』mᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝐊𝐈𝐍𝐆𝐗𝐎𝐏 : [𝙆 𝙄 𝙍 𝘼 𝙓 𝙊 𝙋](https://t.me/kiraxophunter)
+┣★ **HW OP** : [__**OWNER**__](https://t.me/iamhackerworld)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 Type /help for Others Commands ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/kiraxophunter) ...
+ᴅᴍ ᴛᴏ ᴍʏ [__**HW MUSIC BOT OWNER**__](https://t.me/iamhackerworld) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -131,10 +131,10 @@ async def useradd(_, message: Message):
     )
     
     
-@app.on_message(filters.command(["alive", ""]) & filters.group & ~filters.edited)
+@app.on_message(filters.command(["alive", "alive"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/960444f086cd118ef72f7.jpg",
+        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -147,16 +147,16 @@ async def useradd(_, message: Message):
     )
 
 
-@app.on_message(filters.command(["sgsvvsbshhw"]) & filters.group & ~filters.edited)
+@app.on_message(filters.command(["repo"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"hhttps://telegra.ph/file/960444f086cd118ef72f7.jpg",
+        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/kiraxophunter")
+                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/iamhackerworld")
                 ]
             ]
         ),
