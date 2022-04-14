@@ -139,7 +139,7 @@ async def useradd(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "HELP", url=f"http://t.me/{MUSIC_BOT_USERNAME?start=help"
+                        "HELP", url=f"http://t.me/{MUSIC_BOT_USERNAME}?start=help"
                 ]
             ]
         ),
