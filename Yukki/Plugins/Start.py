@@ -114,10 +114,10 @@ async def useradd(_, message: Message):
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ『【**HW MUSIC BOT**】』mᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ **HW OP** : [__**OWNER**__](https://t.me/iamhackerworld)
+┣★ **HW OP** : [OWNER](https://t.me/iamhackerworld)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 Type /help for Others Commands ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [__**HW MUSIC BOT OWNER**__](https://t.me/iamhackerworld) ...
+ᴅᴍ ᴛᴏ ᴍʏ [**HW MUSIC BOT OWNER**](https://t.me/iamhackerworld) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
