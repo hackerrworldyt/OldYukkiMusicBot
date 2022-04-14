@@ -123,7 +123,7 @@ async def useradd(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/cfc_bots")
+                        "➕ ❰ 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/HwBotSupport")
                 ]
                 
            ]
