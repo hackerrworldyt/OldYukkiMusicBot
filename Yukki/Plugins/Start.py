@@ -130,6 +130,20 @@ async def useradd(_, message: Message):
         ),
     )
     
+@app.on_message(filters.command(["help", "help"]) & filters.group & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
+        caption=f"""Contact me in PM to get the list of possible commands.""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "HELP", url=f"http://t.me/{MUSIC_BOT_USERNAME?start=help"
+                ]
+            ]
+        ),
+    )   
     
 @app.on_message(filters.command(["alive", "alive"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
