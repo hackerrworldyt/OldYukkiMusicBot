@@ -94,7 +94,7 @@ async def welcome(_, message: Message):
             return
 
 
-@app.on_message(filters.command(["help", "start"]) & filters.group)
+@app.on_message(filters.command(["help", "start"]) & filters.private)
 async def useradd(_, message: Message):
     out = start_pannel()
     await asyncio.gather(
