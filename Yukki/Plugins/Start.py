@@ -109,7 +109,7 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
+        photo=f"{START_IMG_URL}",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ『【**HW MUSIC BOT**】』mᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
@@ -133,7 +133,7 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command(["help", "help"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
+        photo=f"{START_IMG_URL}",
         caption=f"""Contact me in PM to get the list of possible commands.""",
         reply_markup=InlineKeyboardMarkup(
             [
