@@ -148,7 +148,7 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command(["alive", "alive"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
+        photo=f"{START_IMG_URL}",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
