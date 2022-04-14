@@ -109,7 +109,7 @@ async def useradd(_, message: Message):
 @app.on_message(filters.command("alive") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
-        photo=f"{https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg}",
+        photo=f"https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ『【**HW MUSIC BOT**】』mᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
