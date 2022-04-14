@@ -46,7 +46,7 @@ from Yukki.Database import (add_active_chat, add_active_video_chat,
 from Yukki.Inline import (audio_markup, audio_markup2, primary_markup,
                           secondary_markup, secondary_markup2)
 from Yukki.Utilities.timer import start_timer
-from Yukki.Core.PyTgCalls.Hero import join_stream
+from Yukki.Core.PyTgCalls.Yukki import join_stream
 from Yukki.Database import (add_active_chat, add_active_video_chat,
                             is_active_chat, music_off, music_on)
 from Yukki.Inline import (audio_markup, audio_markup2, primary_markup,
