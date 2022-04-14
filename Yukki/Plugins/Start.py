@@ -9,7 +9,7 @@ from pyrogram import filters
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Yukki import ASSIDS, BOT_ID, MUSIC_BOT_NAME, MUSIC_BOT_USERNAME, OWNER_ID, SUDOERS, app
+from Yukki import ASSIDS, BOT_ID, MUSIC_BOT_NAME, BOT_USERNAME, OWNER_ID, SUDOERS, app
 from Yukki import boottime as bot_start_time
 from Yukki import db, random_assistant
 from Yukki.Core.PyTgCalls import Yukki
@@ -139,7 +139,7 @@ async def useradd(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "HELP", url=f"http://t.me/{MUSIC_BOT_USERNAME}?start=help")
+                        "HELP", url=f"http://t.me/{BOT_USERNAME}?start=help")
                 ]
             ]
         ),
