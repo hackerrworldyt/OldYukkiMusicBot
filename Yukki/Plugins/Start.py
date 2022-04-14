@@ -27,6 +27,22 @@ from Yukki.Utilities.ping import get_readable_time
 
 welcome_group = 2
 
+__MODULE__ = "ᴇssᴇɴᴛɪᴀʟs"
+__HELP__ = """
+
+
+/start 
+- Start the Bot.
+
+
+/help 
+- Get Commands Helper Menu.
+
+
+/settings 
+- Get Settings button.
+"""
+
 
 @app.on_message(filters.new_chat_members, group=welcome_group)
 async def welcome(_, message: Message):
@@ -78,8 +94,7 @@ async def welcome(_, message: Message):
             return
 
 
-@app.on_message(filters.command(["hwopp", "hwop"]) & filters.group)
-@PermissionCheck
+@app.on_message(filters.command(["help", "start"]) & filters.group)
 async def useradd(_, message: Message):
     out = start_pannel()
     await asyncio.gather(
@@ -91,8 +106,64 @@ async def useradd(_, message: Message):
     )
 
 
+@app.on_message(filters.command("sts") & filters.private & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/960444f086cd118ef72f7.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ『【𝐈𝐑𝐔𝐘𝐀𝐌】』mᴜsɪᴄ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
+┏━━━━━━━━━━━━━━━━━┓
+┣★ 𝐊𝐈𝐍𝐆𝐗𝐎𝐏 : [𝙆 𝙄 𝙍 𝘼 𝙓 𝙊 𝙋](https://t.me/kiraxophunter)
+┗━━━━━━━━━━━━━━━━━┛
+💞 Type /help for Others Commands ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/kiraxophunter) ...
+━━━━━━━━━━━━━━━━━━━━━━━━**""",
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "➕ ❰ 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/cfc_bots")
+                ]
+                
+           ]
+        ),
+    )
+    
+    
+@app.on_message(filters.command(["alive", ""]) & filters.group & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/960444f086cd118ef72f7.jpg",
+        caption=f"""""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "💥 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 💥", url=f"https://t.me/cfc_bot_support")
+                ]
+            ]
+        ),
+    )
+
+
+@app.on_message(filters.command(["sgsvvsbshhw"]) & filters.group & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"hhttps://telegra.ph/file/960444f086cd118ef72f7.jpg",
+        caption=f"""""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "💥 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐇𝐄𝐑𝐄 ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/kiraxophunter")
+                ]
+            ]
+        ),
+    )
+
+
 @app.on_message(filters.command("settings") & filters.group)
-@PermissionCheck
 async def settings(_, message: Message):
     c_id = message.chat.id
     _check = await get_start(c_id, "assistant")
